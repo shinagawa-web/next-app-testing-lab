@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧪 Next.js App Router Testing Lab
 
-## Getting Started
+This repository demonstrates how to structure and implement testing in a Next.js 13+ project using the **App Router**.
 
-First, run the development server:
+It includes practical examples of:
+
+- ✅ Unit testing with **Jest** and **React Testing Library**
+- 🔁 Integration testing with mocked **next/navigation**
+- 🌐 End-to-end testing with **Playwright**
+- 🧱 Coverage of **Client Components**, **Server Components**, and **Server Actions**
+
+## 🔍 What's Inside
+
+├── app/ # App Router structure 
+├── components/ # Testable UI components 
+├── tests/ # Unit and integration tests 
+├── tests/ # Playwright E2E tests 
+├── playwright.config.ts # Playwright configuration 
+└── jest.config.ts # Jest configuration
+
+## 🚀 Getting Started
+
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run unit/integration tests:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run test
+```
 
-## Learn More
+Run E2E tests (Playwright):
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run test:e2e
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Full Article (Recommended)
+This repository is based on the following blog post.
+It explains the testing strategies, test structure, and key implementation details step-by-step.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📖 Read the full guide here
+👉 http://shinagawa-web.com/blogs/nextjs-app-router-testing-setup
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Requirements
+- Node.js 18+
+- Next.js 13+ (App Router)
+- Playwright
+- Jest + React Testing Library
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT
