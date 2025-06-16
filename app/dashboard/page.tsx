@@ -1,5 +1,6 @@
 'use client'
 
+import SalesChart from '@/components/ReCharts'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 
@@ -31,6 +32,7 @@ export default function DashboardPage() {
       <Suspense fallback={<p>読み込み中...</p>}>
         <TabContent tab={tab} />
       </Suspense>
+      <SalesChart />
     </main>
   )
 }
