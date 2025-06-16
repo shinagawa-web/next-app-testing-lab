@@ -13,6 +13,10 @@ const customJestConfig = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/tests/',
+  ],
 }
 
 export default createJestConfig(customJestConfig)
