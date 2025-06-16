@@ -1,5 +1,7 @@
 # 🧪 Next.js App Router Testing Lab
 
+[![codecov](https://codecov.io/gh/shinagawa-web/next-app-testing-lab/graph/badge.svg?token=IHGARG4N9P)](https://codecov.io/gh/shinagawa-web/next-app-testing-lab)
+
 This repository demonstrates how to structure and implement testing in a Next.js 13+ project using the **App Router**.
 
 It includes practical examples of:
