@@ -1,5 +1,6 @@
 # 🧪 Next.js App Router Testing Lab
 
+[![Test](https://github.com/shinagawa-web/next-app-testing-lab/actions/workflows/test.yml/badge.svg)](https://github.com/shinagawa-web/next-app-testing-lab/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/shinagawa-web/next-app-testing-lab/graph/badge.svg?token=IHGARG4N9P)](https://codecov.io/gh/shinagawa-web/next-app-testing-lab)
 
 This repository demonstrates how to structure and implement testing in a Next.js 13+ project using the **App Router**.
@@ -13,12 +14,14 @@ It includes practical examples of:
 
 ## 🔍 What's Inside
 
+```sh
 ├── app/ # App Router structure 
 ├── components/ # Testable UI components 
 ├── tests/ # Unit and integration tests 
 ├── tests/ # Playwright E2E tests 
 ├── playwright.config.ts # Playwright configuration 
 └── jest.config.ts # Jest configuration
+```
 
 ## 🚀 Getting Started
 
